@@ -1,13 +1,3 @@
-import { CheckCircleIcon } from '@heroicons/react/20/solid';
-const benefits = [
-	'Competitive salaries',
-	'Flexible work hours',
-	'30 days of paid vacation',
-	'Annual team retreats',
-	'Benefits for you and your family',
-	'A great work environment',
-];
-
 export default function Careers() {
 	return (
 		<div className='pb-10' id='career'>
