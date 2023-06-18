@@ -9,19 +9,19 @@ const people = [
     name: 'Advanced Manufacturing',
     role: 'Industrial Automation,  Robotics, Sustainbility',
     imageUrl:
-      'https://images.unsplash.com/photo-1532186773960-85649e5cb70b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA',
+      'https://images.unsplash.com/photo-1647427060118-4911c9821b82?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA',
   },
   {
     name: 'Intelligent Agents',
     role: 'AI, Computing Power and Data Proliferation',
     imageUrl:
-      'https://images.unsplash.com/photo-1504384764586-bb4cdc1707b0?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA',
+      'https://images.unsplash.com/photo-1549692520-acc6669e2f0c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA',
   },
 ]
 
 export default function Trends() {
   return (
-    <div className="bg-white py-24 sm:py-24">
+    <div className="bg-white py-24 sm:py-10">
       <div className="mx-auto max-w-7xl px-6 lg:px-8">
         <div className="mx-auto max-w-2xl lg:mx-0">
           <h2 className="text-3xl font-bold tracking-tight text-yellow-500 sm:text-4xl">Trends</h2>

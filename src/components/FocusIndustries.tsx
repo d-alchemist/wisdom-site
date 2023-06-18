@@ -27,7 +27,7 @@ const blogPosts = [
 
 export default function FocusIndustries() {
 	return (
-		<div>
+		<div className='bg-gray-50 py-10 pb-20'>
 			<div className='mx-auto mt-8 max-w-7xl px-6 sm:mt-8 lg:px-8' id='industries'>
 				<div className='mx-auto max-w-2xl lg:mx-0 lg:max-w-none'>
 					<h2 className='text-3xl font-bold tracking-tight text-yellow-500 sm:text-4xl'>

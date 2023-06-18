@@ -1,11 +1,14 @@
-import OfficeSpace from '../assets/images/office-space.jpg';
-
 export default function WhoWeAre() {
 	return (
 		<div className='grid grid-cols-1 lg:grid-cols-2 gap-4 px-6 lg:px-36 py-20'>
 			<div className='' id='who-we-are'>
 				<div>
-					<img src={OfficeSpace} alt='office space' width={500} className='rounded-md' />
+					<img
+						src='https://images.unsplash.com/photo-1573164574572-cb89e39749b4?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1769&q=80'
+						alt='office space'
+						width={750}
+						className='rounded-md'
+					/>
 				</div>
 			</div>
 			<div className='my-auto gap-10'>

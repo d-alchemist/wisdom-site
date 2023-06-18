@@ -10,6 +10,8 @@ import Trends from "./components/Trends"
 import WhoWeAre from "./components/WhoWeAre"
 import { getAnalytics } from "firebase/analytics";
 import { app } from "./libs/firebase"
+import Footer from "./components/Footer"
+import Contact from "./components/Contact"
 
 function App() {
   useEffect(() => {
@@ -26,6 +28,8 @@ function App() {
       <FocusIndustries />
       <Careers />
       <TeamMessage />
+      <Contact />
+      <Footer />
     </>
   )
 }
