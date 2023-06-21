@@ -12,6 +12,7 @@ import { getAnalytics } from "firebase/analytics";
 import { app } from "./libs/firebase"
 import Footer from "./components/Footer"
 import Contact from "./components/Contact"
+import Strategy from "./components/Strategy"
 
 function App() {
   useEffect(() => {
@@ -24,6 +25,7 @@ function App() {
       <WhoWeAre />
       <OurPrinciples />
       <BringToBiz />
+      <Strategy />
       <Trends />
       <FocusIndustries />
       <Careers />

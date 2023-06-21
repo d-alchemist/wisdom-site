@@ -7,10 +7,10 @@ import HeroVideo from '../assets/videos/hero.mp4';
 
 export const navigation = [
 	{ name: 'About', href: 'who-we-are' },
-	{ name: 'Strategy', href: '#' },
+	{ name: 'Strategy', href: 'strategy' },
 	{ name: 'Industries', href: 'industries' },
 	{ name: 'Career', href: 'career' },
-	{ name: 'Contact', href: '#' },
+	{ name: 'Contact', href: 'contact' },
 ];
 
 export default function HeroNav() {
@@ -25,8 +25,8 @@ export default function HeroNav() {
 				>
 					<div className='flex lg:flex-1'>
 						<a href='#' className='-m-1.5 p-1.5'>
-							<span className='sr-only'>Your Company</span>
-							<img className='h-10 w-auto' src={WisdomLogo} alt='' />
+							<span className='sr-only'>Wisdom Atom</span>
+							<img className='h-10 w-auto' src={WisdomLogo} alt='Wisdom Atom Logo' />
 						</a>
 					</div>
 					<div className='flex lg:hidden'>
@@ -101,14 +101,14 @@ export default function HeroNav() {
 					<source src={HeroVideo} type="video/mp4" />
 					<img
 					src='https://images.unsplash.com/photo-1521737604893-d14cc237f11d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2830&q=80&blend=111827&sat=-100&exp=15&blend-mode=multiply'
-					alt=''
+					alt='background image'
 					className='absolute inset-0 -z-10 h-full w-full object-cover'
 				/>
 				</video>
-				<div className='bg-black opacity-75 h-full w-full absolute -z-10 top-0 hidden md:block'></div>
+				<div className='bg-black opacity-60 h-full w-full absolute -z-10 top-0 hidden md:block'></div>
 				<img
 					src='https://images.unsplash.com/photo-1521737604893-d14cc237f11d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2830&q=80&blend=111827&sat=-100&exp=15&blend-mode=multiply'
-					alt=''
+					alt='background image'
 					className='absolute inset-0 -z-10 h-full w-full object-cover md:hidden'
 				/>
 				<div
