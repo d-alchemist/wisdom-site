@@ -3,6 +3,7 @@ import { Dialog } from '@headlessui/react';
 import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline';
 import { handleClickScroll } from '../utils/helpers';
 import WisdomLogo from '../assets/images/wisdom-logo.png';
+import HeroVideo from '../assets/videos/hero.mp4';
 
 export const navigation = [
 	{ name: 'About', href: 'who-we-are' },
@@ -96,10 +97,19 @@ export default function HeroNav() {
 			</header>
 
 			<div className='relative isolate overflow-hidden pt-14'>
-				<img
+				<video autoPlay muted loop className='absolute -z-20 w-full top-0 hidden md:block'>
+					<source src={HeroVideo} type="video/mp4" />
+					<img
 					src='https://images.unsplash.com/photo-1521737604893-d14cc237f11d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2830&q=80&blend=111827&sat=-100&exp=15&blend-mode=multiply'
 					alt=''
 					className='absolute inset-0 -z-10 h-full w-full object-cover'
+				/>
+				</video>
+				<div className='bg-black opacity-75 h-full w-full absolute -z-10 top-0 hidden md:block'></div>
+				<img
+					src='https://images.unsplash.com/photo-1521737604893-d14cc237f11d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2830&q=80&blend=111827&sat=-100&exp=15&blend-mode=multiply'
+					alt=''
+					className='absolute inset-0 -z-10 h-full w-full object-cover md:hidden'
 				/>
 				<div
 					className='absolute inset-x-0 -top-40 -z-10 transform-gpu overflow-hidden blur-3xl sm:-top-80'
@@ -114,13 +124,21 @@ export default function HeroNav() {
 					/>
 				</div>
 				<div className='mx-auto max-w-2xl py-32 sm:py-48 lg:py-56'>
-					<div className='text-center'>
+					<div className='text-center text-black'>
 						<h1 className='text-4xl font-bold tracking-tight text-white sm:text-5xl'>
 							We Sustain Business Longevity and Legacy by Investing in People
 						</h1>
 						<p className='mt-6 text-lg leading-8 text-gray-300'>
 							We are the Trusted Partner as you Transition or Grow your Business
 						</p>
+						<div className='border rounded-2xl border-slate-400 px-4 mt-10 inline-block'>
+              <div className='hidden sm:flex sm:justify-center'>
+                <div className='relative rounded-full p-3 text-xl leading-6 text-gray-300 whitespace-nowrap ring-1 ring-gray-900/10 hover:ring-gray-900/20'>
+                  <p className='mb-3'>What We Are Looking For:</p>
+									<p>Family Owned or Privately Held Business with Strong History of Profitability</p>
+                </div>
+              </div>
+            </div>
 						<div className='mt-10 flex items-center justify-center gap-x-6'>
 							<a
 								href='#'
@@ -135,13 +153,7 @@ export default function HeroNav() {
 								Learn more <span aria-hidden='true'>→</span>
 							</p>
 						</div>
-            <div className='border rounded-2xl border-gray-800 px-4 mt-10 inline-block'>
-              <div className='hidden sm:flex sm:justify-center'>
-                <div className='relative rounded-full px-3 py-1 text-sm leading-6 text-gray-300 whitespace-nowrap ring-1 ring-gray-900/10 hover:ring-gray-900/20'>
-                  What We Are Looking For: Family Owned or Privately Held Business with Strong History of Profitability
-                </div>
-              </div>
-            </div>
+            
 					</div>
 				</div>
 				<div

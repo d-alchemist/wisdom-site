@@ -1,11 +1,14 @@
-import Meeting from '../assets/images/meeting.jpg';
-
 export default function BringToBiz() {
 	return (
 		<div className='grid grid-cols-1 lg:grid-cols-2 gap-4 px-6 lg:px-36 py-20'>
 			<div className=''>
 				<div>
-					<img src={Meeting} alt='office space' width={500} className='rounded-md' />
+					<img
+						src='https://images.unsplash.com/photo-1590402494587-44b71d7772f6?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1770&q=80'
+						alt='office space'
+						width={700}
+						className='rounded-md'
+					/>
 				</div>
 			</div>
 			<div className='my-auto gap-10'>
@@ -18,7 +21,9 @@ export default function BringToBiz() {
 						drive growth in the businesses that we acquire by leveraging product,
 						business, and technology innovation. 
 					</p>
-					<p className='mt-10 font-semibold'>Connect with Us to Get Expert Advice on How you can Sell Your Business</p>
+					<p className='mt-10 font-semibold'>
+						Connect with Us to Get Expert Advice on How you can Sell Your Business
+					</p>
 					<div className='mt-10 flex gap-x-6'>
 						<a
 							href='#'
