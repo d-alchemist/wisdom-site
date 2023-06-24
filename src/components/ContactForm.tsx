@@ -1,43 +1,4 @@
-// import nodemailer from "nodemailer"
-
 export default function ContactForm() {
-
-  // const sendMail = () => {
-  //   const transporter = nodemailer.createTransport({
-  //     port: 587,
-  //     host: "smtp.sendgrid.net",
-  //     auth: {
-  //       user: "quadri@wisdomatomindustries.com",
-  //       pass: "WAItest1234",
-  //     },
-  //   });
-  
-  //   const mailData = {
-  //     from: "quadri@wisdomatomindustries.com",
-  //     to: "despeakableme@gmail.com",
-  //     subject: "Contact Us Form: Wisdom Atom",
-  //     html: `
-  //       <div>
-  //         <h3>Hello from Oze Shop</h3>
-  //         <p>A user with the following details contacted you:</p>
-  //         <p>Full Name:</p>
-  //         <p>Email:</p>
-  //         <p>Phone Number:</p>
-  //         <p>Message:</p>
-  //       </div>
-  //     `,
-  //   };
-
-  //   transporter.sendMail(mailData, (error) => {
-  //     if (error) {
-  //       console.log(error)
-  //       return;
-  //     }
-  //     console.log("Success")
-  //   });
-  
-  // }
-
 	return (
 		<div className='relative isolate bg-white px-6 py-24 sm:py-32 lg:px-8' id='contact'>
 			<div className='mx-auto max-w-xl lg:max-w-4xl'>
