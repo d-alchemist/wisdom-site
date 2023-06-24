@@ -1,6 +1,6 @@
 const people = [
   {
-    name: 'Clean energy transition',
+    name: 'Clean Energy Transition',
     role: 'Electric Vehicle, Battery Technology, Green Hydrogen',
     imageUrl:
       'https://images.unsplash.com/photo-1532601224476-15c79f2f7a51?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA',
@@ -21,7 +21,7 @@ const people = [
 
 export default function Trends() {
   return (
-    <div className="bg-white py-24 sm:py-10">
+    <div className="bg-gray-100 py-24 sm:py-10">
       <div className="mx-auto max-w-7xl px-6 lg:px-8">
         <div className="mx-auto max-w-2xl lg:mx-0">
           <h2 className="text-3xl font-bold tracking-tight text-yellow-500 sm:text-4xl">Trends</h2>

@@ -11,7 +11,7 @@ export default function WhoWeAre() {
 					/>
 				</div>
 			</div>
-			<div className='my-auto gap-10'>
+			<div className='flex flex-col justify-between'>
 				<div>
 					<h2 className='text-3xl text-yellow-500 mb-2 font-semibold capitalize'>
 						Who we are
@@ -24,7 +24,7 @@ export default function WhoWeAre() {
 						achieve liquidity.
 					</p>
 				</div>
-				<div className='my-4'>
+				<div className=''>
 					<h2 className='text-3xl font-semibold text-yellow-500 mb-2 capitalize'>
 						Our mission
 					</h2>

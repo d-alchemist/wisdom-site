@@ -1,3 +1,5 @@
+import { handleClickScroll } from "../utils/helpers";
+
 export default function BringToBiz() {
 	return (
 		<div className='grid grid-cols-1 lg:grid-cols-2 gap-4 px-6 lg:px-36 py-20'>
@@ -25,12 +27,12 @@ export default function BringToBiz() {
 						Connect with Us to Get Expert Advice on How you can Sell Your Business
 					</p>
 					<div className='mt-10 flex gap-x-6'>
-						<a
-							href='#'
-							className='rounded-md bg-yellow-500 px-5 py-3.5 text-sm font-semibold text-white shadow-sm hover:bg-yellow-400 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600'
+						<p
+							onClick={() => handleClickScroll('contact')}
+							className='rounded-md bg-yellow-500 px-5 py-3.5 text-sm font-semibold text-white shadow-sm hover:bg-yellow-400 cursor-pointer focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600'
 						>
-							Connect with an expert
-						</a>
+							Connect with an Expert
+						</p>
 					</div>
 				</div>
 			</div>

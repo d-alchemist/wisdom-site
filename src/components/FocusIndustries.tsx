@@ -13,7 +13,7 @@ const blogPosts = [
 	},
 	{
 		id: 3,
-		title: 'Home services & Construction',
+		title: 'Real Estate and Construction',
 		imageUrl:
 			'https://images.unsplash.com/photo-1563391017873-6e6beab67fed?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=774&q=80',
 	},
@@ -27,7 +27,7 @@ const blogPosts = [
 
 export default function FocusIndustries() {
 	return (
-		<div className='bg-gray-50 py-10 pb-20'>
+		<div className='bg-white py-10 pb-20'>
 			<div className='mx-auto mt-8 max-w-7xl px-6 sm:mt-8 lg:px-8' id='industries'>
 				<div className='mx-auto max-w-2xl lg:mx-0 lg:max-w-none'>
 					<h2 className='text-3xl font-bold tracking-tight text-yellow-500 sm:text-4xl'>

@@ -6,6 +6,7 @@ import WisdomLogo from '../assets/images/wisdom-logo.png';
 import HeroVideo from '../assets/videos/hero.mp4';
 
 export const navigation = [
+	{ name: 'Home', href: 'home' },
 	{ name: 'About', href: 'who-we-are' },
 	{ name: 'Strategy', href: 'strategy' },
 	{ name: 'Industries', href: 'industries' },
@@ -17,7 +18,7 @@ export default function HeroNav() {
 	const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
 
 	return (
-		<div className='bg-gray-900'>
+		<div className='bg-gray-900' id='home'>
 			<header className='absolute inset-x-0 top-0 z-50'>
 				<nav
 					className='flex items-center justify-between p-6 lg:px-8'
@@ -123,7 +124,7 @@ export default function HeroNav() {
 						}}
 					/>
 				</div>
-				<div className='mx-auto max-w-2xl py-32 sm:py-48 lg:py-56'>
+				<div className='mx-auto max-w-2xl py-32 sm:py-48 lg:py-40'>
 					<div className='text-center text-black'>
 						<h1 className='text-4xl font-bold tracking-tight text-white sm:text-5xl'>
 							We Sustain Business Longevity and Legacy by Investing in People
@@ -133,24 +134,18 @@ export default function HeroNav() {
 						</p>
 						<div className='border rounded-2xl border-slate-400 px-4 mt-10 inline-block'>
               <div className='hidden sm:flex sm:justify-center'>
-                <div className='relative rounded-full p-3 text-xl leading-6 text-gray-300 whitespace-nowrap ring-1 ring-gray-900/10 hover:ring-gray-900/20'>
-                  <p className='mb-3'>What We Are Looking For:</p>
+                <div className='relative rounded-full p-3 text-xl leading-6 text-gray-300 whitespace-nowrap'>
+                  <p className='mb-3 text-3xl font-bold'>What We Are Looking For:</p>
 									<p>Family Owned or Privately Held Business with Strong History of Profitability</p>
                 </div>
               </div>
             </div>
 						<div className='mt-10 flex items-center justify-center gap-x-6'>
-							<a
-								href='#'
-								className='rounded-md bg-yellow-500 px-5 py-3.5 text-sm font-semibold text-white shadow-sm hover:bg-yellow-400 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600'
-							>
-								Connect with an expert
-							</a>
 							<p
-								onClick={() => handleClickScroll('who-we-are')}
-								className='text-sm font-semibold leading-6 text-white cursor-pointer'
+								onClick={() => handleClickScroll("who-we-are")}
+								className='rounded-md bg-yellow-500 px-5 py-3.5 text-sm font-semibold cursor-pointer text-white shadow-sm hover:bg-yellow-400 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600'
 							>
-								Learn more <span aria-hidden='true'>→</span>
+								Learn More
 							</p>
 						</div>
             

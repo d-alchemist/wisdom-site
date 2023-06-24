@@ -15,7 +15,7 @@ const principles = [
 	},
 	{
 		id: 3,
-		title: 'Individuals and Interactions',
+		title: 'Question the Status Quo',
 		desc: 'over processes and tools',
 		icon: <ShareIcon />,
 	},
@@ -36,7 +36,7 @@ const principles = [
 
 export default function OurPrinciples() {
 	return (
-    <div className='bg-gray-50'>
+    <div className='bg-gray-100'>
       <div className='px-6 lg:px-36 py-20'>
         <div className='mb-5'>
           <h2 className='text-yellow-500 text-3xl font-semibold'>Our Principles</h2>
@@ -50,11 +50,11 @@ export default function OurPrinciples() {
             >
               <div className='flex items-center'>
                 <div className='w-12'>
-                  <div className='bg-yellow-500 rounded-full p-3'>{p.icon}</div>
+                  <div className='bg-yellow-500 rounded-full p-3 text-white'>{p.icon}</div>
                 </div>
                 <div className='ml-6'>
                   <p className='text-lg mb-1 font-medium'>{p.title}</p>
-                  <p className='text-sm whitespace-break-spaces'>{p.desc}</p>
+                  {/* <p className='text-sm whitespace-break-spaces'>{p.desc}</p> */}
                 </div>
               </div>
             </li>
