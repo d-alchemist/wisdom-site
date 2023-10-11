@@ -37,7 +37,7 @@ const principles = [
 export default function OurPrinciples() {
 	return (
     <div className='bg-gray-100'>
-      <div className='px-6 lg:px-36 py-20'>
+      <div className='py-20 max-w-7xl mx-auto'>
         <div className='mb-5'>
           <h2 className='text-yellow-500 text-3xl font-semibold'>Our Principles</h2>
           <p className='mt-3'>We operate with these core set of principles</p>

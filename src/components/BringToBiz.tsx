@@ -2,7 +2,7 @@ import { handleClickScroll } from "../utils/helpers";
 
 export default function BringToBiz() {
 	return (
-		<div className='grid grid-cols-1 lg:grid-cols-2 gap-4 px-6 lg:px-36 py-20'>
+		<div className='grid grid-cols-1 lg:grid-cols-2 gap-4 py-20 max-w-7xl mx-auto'>
 			<div className=''>
 				<div>
 					<img
